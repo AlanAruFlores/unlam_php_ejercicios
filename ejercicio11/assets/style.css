@@ -1,0 +1,140 @@
+@font-face {
+    font-family: arcade;
+    src: url(./font/arcade.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #151515;
+    font-family: Helvetica;
+}
+/*CABECERA - ESTILOS*/
+#cabecera{
+    background: white;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+}
+
+#cabecera h1{
+    font-family: arcade;
+    letter-spacing: 2px;
+    font-size: 35px;
+    float: left;
+    width: 50%;
+    background: linear-gradient(to bottom,#03309f, #2a79d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#cabecera p{
+    float: right;
+    width: 30%;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-family: arcade;
+}
+
+/*CONTENEDOR - ESTILOS*/    
+#contenido{
+    background: linear-gradient(to bottom,#03309f, #2a79d3);
+    height: 500px;
+}
+
+/*CONTENEDOR - ESTILOS*/
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12%;
+}
+
+#contenido h2{
+    color: white;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+#contenido form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#contenido label{
+    color: white;
+    font-size: 30px;
+}
+
+#contenido select{
+    height: 34px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+input[type="submit"]{
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px 60px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+
+input[type="submit"]:hover{
+    background-color: white;
+    color: #03309f;
+}
+#contenedor_imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.img-dados{
+    width: 80px;
+    height: 80px;
+}
+#resultado{
+    color: white;
+    font-size: 28px;
+}
+/*FOOTER - ESTILOS*/
+
+#pie-pagina{
+    padding: 10px 20px;
+    height: 80px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#pie-pagina div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+#pie-pagina img{
+    width: 50px;
+    height: 50px;
+}
+#pie-pagina p{
+    display: inline;
+    height: 80px;
+    font-family: arcade;
+    font-size: 20px;
+    font-weight: 200;
+    color:#151515;
+    letter-spacing: 2px;
+}
+

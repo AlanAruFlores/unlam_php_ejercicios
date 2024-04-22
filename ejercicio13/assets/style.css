@@ -1,0 +1,181 @@
+@font-face {
+    font-family: abraham;
+    src: url(./font/1\ Abraham\ Demo.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CABECERA - ESTILOS*/
+
+#cabecera{
+    background-color: #ff3816;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+    padding: 0px 20px;
+}
+#cabecera h1{
+    font-family: abraham;
+    font-size: 45px;
+    letter-spacing: 2px;
+    float: left;
+    width: 50%;
+}
+#cabecera p{
+    width: 50%;
+    float: right;
+    text-align: end;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+/*FORMULARIO - ESTILOS*/
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+.menu_div{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 38px;
+    width: 60%;
+    border-bottom: 3px solid #ff3816;
+    padding: 20px 0;
+}
+
+.menu_div_final{
+    border-bottom: none;
+}
+
+.menu_div h2{
+    font-family: abraham;
+    letter-spacing: 1px;
+    font-size: 30px;
+    border-bottom: #ff3816 3px groove;
+}
+
+.menu_div img{
+    width: 350px;
+    height: 230px;
+    border-radius: 4px;
+}
+.menu_div input[type="checkbox"]{
+    margin-top: 15px;
+}
+.menu_div label{
+    font-size: 20px;
+}
+
+.boton{
+    display: block;
+    background-color: #ff3816;
+    color: white;
+    font-size: 23px;
+    border: none;
+    padding: 10px 20px;
+    margin: 25px auto;
+    width: 50%;
+    font-family: abraham;
+    letter-spacing: 1px;
+    transition: all 500ms;
+    text-decoration: none;
+    text-align: center;
+}
+
+.boton:hover{
+    background-color: white;
+    color: #ff3816;
+    cursor: pointer;
+}
+
+
+/*CONTENIDO - ESTILOS*/
+body{
+    background-color: rgb(200, 200, 200);
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: white;
+}
+#contenido h1{
+    font-size: 35px;
+    font-family: abraham;
+    color:#151515;
+    letter-spacing: 1px;
+    border-bottom: #ff3816 4px solid;
+}
+#contenido div{
+    width: 150px;
+    height: 100px;
+}
+#contenido div h2{ 
+    font-size: 25px;
+    font-family: abraham;
+    color:#151515;
+    letter-spacing: 1px;
+    border-bottom: #ff3816 4px solid;
+    width: 120px;
+}
+
+#contenido ul{
+    list-style: none;
+    font-weight: 100;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#contenido li{
+    font-family: abraham;
+}
+
+/*FOOTER - ESTILOS*/
+#pie-pagina{
+    padding: 10px 20px;
+    height: 100px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ff3816;
+
+}
+#pie-pagina div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+#pie-pagina img{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+#pie-pagina p{
+    display: inline;
+    height: 80px;
+    font-family: arcade;
+    font-size: 20px;
+    font-weight: 200;
+    color:#151515;
+    letter-spacing: 2px;
+    color: white;
+    font-family: abraham;
+}
+

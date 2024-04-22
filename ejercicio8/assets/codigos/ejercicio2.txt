@@ -1,0 +1,17 @@
+&#60;?php
+ 
+    $a = 6;
+    $b = 8;
+    echo binomioCuadradoPerfecto_a($a,$b)."<br>";
+    echo binomioCuadradoPerfecto_b($a,$b)."<br>";
+
+
+    function binomioCuadradoPerfecto_a($a,$b){
+        return pow($a+$b,2);
+    }
+
+    function binomioCuadradoPerfecto_b($a,$b){
+        return ($a*$a)+2*$a*$b+($b*$b);
+    }
+
+?&#62;

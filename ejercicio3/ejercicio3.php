@@ -1,0 +1,19 @@
+<?php 
+    /*
+        Cree una función concatenar($texto1, $texto2) que reciba dos textos como parámetro y devuelva
+        ambos textos concatenados como uno solo
+    */  
+
+    $texto1 = "Hola";
+    $texto2 = "desde PHP";
+    echo concatenar($texto1, $texto2)."<br>";
+
+    function concatenar($texto1, $texto2){
+        if(empty($texto1) || empty($texto2))
+            return "Error: No pueden estar vacios";
+        if(!is_string($texto1) || !is_string($texto2))
+            return "Error: Deben ser strings ambos";
+
+        return $texto1."".$texto2;
+    }
+?>

@@ -1,0 +1,10 @@
+<?php
+
+    $numero = 0;
+    echo "Valor anterior: $numero <br>";
+    incrementar($numero);
+    echo "Valor actual: $numero <br>";
+    function incrementar(&$n){
+        $n++;
+    }
+?>

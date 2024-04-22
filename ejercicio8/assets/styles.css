@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: Fajala;
+    src: url(./FjallaOne-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color:#272727;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(./cubes.png);
+}
+
+/*CABEBECERO*/
+
+#cabecera{
+    padding-top: 20px;
+    width: 85%;
+    margin: 0 auto;
+}
+#cabecera h1{
+    font-family:"Fajala";
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+#menu{
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #eee,#d9d8d8);
+    border-radius: 10px;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 0px;
+}
+
+#menu ul li{
+    border-right: #cbcbcb 1px solid;
+    padding: 0 10px;
+}
+
+#menu ul li:hover{
+    background: linear-gradient(to bottom, #e8e7e7,#d8d8d8);
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color:#959595;
+    font-size: 15px;
+}
+
+
+/*CONTENIDO*/
+
+#contenido{
+    width: 85%;
+    margin: 20px auto;
+    background-color:#e1e0e0;
+    padding: 20px;
+    border-radius: 10px;  
+}
+#contenido h1{
+    text-align: center;
+    font-family: Fajala;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+#contenido embed{
+    display: block;
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*ESTILOS A LOS EJERCICIO*/
+#contenido h2{
+    font-size: 20px;
+    font-family: Fajala;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#contenido pre{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color:#272727;
+    padding: 10px
+}
+
+#contenido #resultado{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    color: #272727;
+}
+/*PIE DE PAGINA*/
+#pie-pagina{
+    background: linear-gradient(to bottom, #eee,#d9d8d8);
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
